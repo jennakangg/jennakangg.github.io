@@ -35,12 +35,12 @@ papertitle {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #20212b;
-        color: #dadbdf;
+        background-color: #fce4e4;
+        color: #4c7ca4;
     }
 
     autocolor{
-      color:#dadbdf;
+      color:#4c7ca4;
     }
 
     lightonly {
@@ -52,7 +52,7 @@ papertitle {
     }
 
     papertitle {
-    color:#eeeff0;
+    color:#949cbc;
     }
 
 }
@@ -82,7 +82,7 @@ papertitle {
     }
 
     .image.avatar {
-      border-radius: 100%;
+      border-radius: 0%;
     }
 
       .image.avatar:before {
@@ -90,7 +90,7 @@ papertitle {
       }
 
       .image.avatar img {
-        border-radius: 100%;
+        border-radius: 0%;
         width: 50%;
         padding:20px;
       }
@@ -102,7 +102,7 @@ papertitle {
 
 h1, h3, h4, h5, h6 {
   font-weight: 600;
-  color:#043361;
+  color:#4c7ca4;
   margin:0 0 20px;
 }
 
@@ -114,11 +114,13 @@ h2 {
 
 @media (prefers-color-scheme: dark) {
   h1, h3, h4, h5, h6 {
-    color:rgb(62, 183, 240);
+    // color:#bc84a4;
+    color:#4a7ba6;
   }
 
   h2 {
-    color:rgb(62, 183, 240);
+    // color:#64b4c4;
+    color:#bc84a4;
   }
 }
 
@@ -145,7 +147,7 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
   a {
-    color:rgb(62, 183, 240);
+    color:#949cbc;
   }
 }
 
@@ -208,11 +210,11 @@ th {
 
 @media (prefers-color-scheme: dark) {
   th {
-    color:rgb(62, 183, 240);
+    color:#bc84a4;
   }
 
   dt {
-    color:rgb(62, 183, 240);
+    color:#bc84a4;
   }
 }
 
@@ -281,7 +283,7 @@ strong {
 
 @media (prefers-color-scheme: dark) {
   strong {
-    color:#eeeff0;
+    color:#64b4c4;
   }
 }
 
@@ -342,8 +344,8 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
+    border:3px solid #fcacbc;
+    border-width:5px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
@@ -360,7 +362,7 @@ footer {
 
 
    .image.avatar img {
-        border-radius: 100%;
+        border-radius: 0%;
         width: 117px;
         padding:20px;
       }

@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a second-year Ph.D. student at Department of Computer Science, National University of Singapore (NUS), supervised by Prof. [Angela Yao](https://www.comp.nus.edu.sg/~ayao/). My research interests lie in computer vision and deep learning, especially human pose estimation. I achieved my Bachelor's degree at Shanghai Jiao Tong University (SJTU). Previsouly, I worked with Prof. [Quanshi Zhang](http://qszhang.com/)@SJTU and Prof. [Guosheng Lin](https://guosheng.github.io/)@NTU.
+I am a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research interests center on accelerating and improving graphics systems using machine learning techniques, with a primary interest in 3-D and extended reality (XR) applications. Additionally, I am interested in studying and exploiting human perception, through cognitive, perceptual, vision sciences, to enhance the experience and draw inspiration from.
+
+I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
 
 
 <!-- ## Research Interests
