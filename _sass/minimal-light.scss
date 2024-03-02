@@ -106,6 +106,8 @@ h1, h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
+
+
 h2 {
   color:#043361;
   margin:2px 0px 15px;
@@ -113,11 +115,15 @@ h2 {
 }
 
 @media (prefers-color-scheme: dark) {
-  h1, h3, h4, h5, h6 {
+  h3, h4, h5, h6 {
     // color:#bc84a4;
     color:#4a7ba6;
   }
-
+  // JENNA KANG
+  h1{
+    color:#6676c4;
+  }
+  // ##HEADING##
   h2 {
     // color:#64b4c4;
     color:#bc84a4;
@@ -281,9 +287,11 @@ strong {
   font-weight:500;
 }
 
+// **HEADING**
 @media (prefers-color-scheme: dark) {
   strong {
-    color:#64b4c4;
+    color:#6f7ed1;
+    font-weight:800;
   }
 }
 

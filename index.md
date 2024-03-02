@@ -23,11 +23,11 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 
 ## Publications
 
-- **Removing the Bias of Integral Pose Regression**
+- **Towards Improving Real-Time Head-Worn Display Caption Mediated Conversations with Speaker Feedback for Hearing Conversation Partners**
   <br>
-  **Kerui Gu**, Linlin Yang, Angela Yao
+  **Jenna Kang**, Emily Layton, David Martin, Thad Starner
   <br>
-  International Conference on Computer Vision. **ICCV 2021**.
+  CHI Late-Breaking **CHI 2024**.
   <br>
   [[paper](./assets/pdfs/11152.pdf)] [[supp](./assets/pdfs/11152-supp.pdf)] 
   <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
@@ -56,5 +56,5 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 
 ## Teaching
 
-- CS4243 Computer Vision and Pattern Recognition AY21/22 Sem1, **Teaching Assistant**
-- CS4243 Computer Vision and Pattern Recognition AY20/21 Sem1, **Teaching Assistant**
+- CS3001 Computing and Society Spring 2024, **Teaching Assistant**
+- CS3001 Computing and Society Fall 2023, **Teaching Assistant**
