@@ -28,7 +28,7 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   <br>
   CHI Late-Breaking **CHI 2024**.
   <br>
-  [[paper](./assets/pdfs/ChiCaptioning.pdf)]
+  [[paper](/assets/pdfs/ChiCaptioning.pdf)]
    <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
   <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
 
