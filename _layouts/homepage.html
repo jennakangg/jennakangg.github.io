@@ -42,6 +42,13 @@
         <br>
         {{ site.email }}
         <br>
+        <a class="image logo"><img src="{{site.NYU_img}}" alt="avatar" onContextMenu="return false" /></a>
+        <br>
+        <br>
+        {{ site.undergrad_affiliation }}
+        <br>
+        <a class="image logo"><img src="{{site.GT_img}}" alt="avatar" onContextMenu="return false" /></a>
+        <br>
         <br>
         {% endif %}
 
@@ -68,6 +75,11 @@
           {% if site.github_link %}            
           <a href="{{ site.github_link }}" target="_blank">
             <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+          {% if site.instagram_link %}            
+          <a href="{{ site.instagram_link }}" target="_blank">
+            <i class="fab fa-instagram"></i>
           </a>
           {% endif %}
         </div>

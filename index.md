@@ -4,10 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research interests center on accelerating and improving graphics systems using machine learning techniques, with a primary interest in 3-D and extended reality (XR) applications. Additionally, I am interested in studying and exploiting human perception, through cognitive, perceptual, vision sciences, to enhance the experience and draw inspiration from.
+I am a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research interests center on accelerating and improving graphics systems using machine learning techniques, with a primary interest in 3-D and extended reality (XR) applications. I am especially interested in studying and exploiting human perception, through cognitive, perceptual, vision sciences, to enhance the experience and draw inspiration from.
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
-
 
 <!-- ## Research Interests
 
@@ -29,7 +28,8 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   <br>
   CHI Late-Breaking **CHI 2024**.
   <br>
-  [[paper](./assets/pdfs/11152.pdf)] [[supp](./assets/pdfs/11152-supp.pdf)] 
+  [[paper](./assets/pdfs/ChiCaptioning.pdf)]
+   <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
   <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
 
 <!-- - **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
@@ -53,6 +53,25 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 - Co-organizer: [ACM MM Asia 2020](https://mmasia2020.org/).
 - Conference Reviewers: [NeurIPS 2020](https://neurips.cc/Conferences/2020), and [CVPR 2020](http://cvpr2020.thecvf.com/).
 - Journal Reviewers: [T-PAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34), and [IJCV](https://www.springer.com/journal/11263). -->
+## Research
+- **New York University, Advisor: Qi Sun**
+  - Analyzed perceptual differences in image similarity using procedural textures, neural network models, diffusion models
+  - Modeled biased in percption of object motion during self-motion 
+- **Georgia Institute of Technology, Advisor: Thad Starner** 
+  - Prototyped medical applications of head-worn displays, projecting camera output for surgical zoom with a variety of sensors
+  - Quantitatively and qualitatively analyze benefits for the speaker to see their captions along with the deaf and hard of hearing user with captioning on glasses
+- **Emory University School of Medicine, Advisor: Anthony Law**
+  - Developed/trained machine learning models for vocal fold segmentation, computer vision for vocal fold paralysis detection
+
+## Work Experience
+- **Amazon Robotics, Software Engineer Intern** (May 2024 - Aug 2024)
+  <br> Applied Machine Learning
+- **Amazon Robotics, Software Engineer Intern** (May 2023 - Aug 2023)
+  <br> AWS: Lambda, Step Functions, CDK, DynamoDB, Cloudformation, Cloudwatch, Opensearch, API Gateway, S3, IAM 
+- **Amazon Robotics, Software Engineer Co-op**(Jan 2022 - Aug 2022)
+  <br> Kotlin, Docker, Typescript, Java, React 
+- **CyberCrucible, Frontend Engineer Part-time** (Dec 2021 - Feb 2023)
+  <br> Javascript, CSS, HTML, React, ReactJS
 
 ## Teaching
 
