@@ -3,8 +3,9 @@ layout: homepage
 ---
 
 ## About Me
+I'm a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research interests center on improving immersive experiences in 3-D and AR/VR applications, with a focus on accelerating and enhancing graphics systems using machine learning techniques. I am particularly interested in studying and exploiting human perception through cognitive, perceptual, and vision sciences to enhance the experience and draw inspiration from.
 
-I am a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research interests center on accelerating and improving graphics systems using machine learning techniques, with a primary interest in 3-D and extended reality (XR) applications. I am especially interested in studying and exploiting human perception, through cognitive, perceptual, vision sciences, to enhance the experience and draw inspiration from.
+I am also interested in using HCI strategies for AR/VR 3-D displays, focusing on how users navigate and react within virtual spaces, investigating unique behavioral quirks to enhance immersion and interaction in these environments.
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
 
