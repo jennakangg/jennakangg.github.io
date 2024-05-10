@@ -56,7 +56,7 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 ## Research
 - **New York University, Advisor: Qi Sun**
   - Analyzed perceptual differences in image similarity using procedural textures, neural network models, diffusion models
-  - Modeled biased in percption of object motion during self-motion 
+  - Modeled biased in perception of object motion during self-motion 
 - **Georgia Institute of Technology, Advisor: Thad Starner** 
   - Prototyped medical applications of head-worn displays, projecting camera output for surgical zoom with a variety of sensors
   - Quantitatively and qualitatively analyze benefits for the speaker to see their captions along with the deaf and hard of hearing user with captioning on glasses
