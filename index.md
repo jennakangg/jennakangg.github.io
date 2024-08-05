@@ -33,6 +33,16 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
    <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
   <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
 
+- **Stepping into AR: Exploring Optimal Positioning for Monocular Head-Worn Displays for Reading on the Go**
+  <br>
+  Priyanka V Mosur, Ethan I Kimmel, Parth Arora, Rajandeep Singh, **Jenna Kang**, Atharva R Madiwale, Thad Starner
+  <br>
+  UbiComp/ISWC Workshop **UbiComp/ISWC 2024**.
+  <br>
+  [[paper](/assets/pdfs/ubicomp24.pdf)]
+   <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
+  <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
+
 <!-- - **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
   <br>
   Xinzhe Li, Qianru Sun, **Yaoyao Liu**, Shibao Zheng, Qin Zhou, Tat-Seng Chua, Bernt Schiele
