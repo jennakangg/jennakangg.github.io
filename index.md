@@ -33,15 +33,25 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
    <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
   <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
 
-<!-- - **Stepping into AR: Exploring Optimal Positioning for Monocular Head-Worn Displays for Reading on the Go**
+
+
+- **Evaluating Visual Perception of Object Motion in Dynamic Environments**
+  <br>
+  Budmonde Duinkharjav, **Jenna Kang**, Gavin S.P. Miller, Chang Xiao, Qi Sun
+  <br>
+  SIGGRAPH ASIA Journal Paper **SIGGRAPH ASIA 2024**.
+  <br>
+  [[paper](/assets/pdfs/motion_perception_manuscript.pdf)]
+   <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
+  <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
+
+- **Stepping into AR: Exploring Optimal Positioning for Monocular Head-Worn Displays for Reading on the Go**
   <br>
   Priyanka V Mosur, Ethan I Kimmel, Parth Arora, Rajandeep Singh, **Jenna Kang**, Atharva R Madiwale, Thad Starner
   <br>
   UbiComp/ISWC Workshop **UbiComp/ISWC 2024**.
   <br>
-  [[paper](/assets/pdfs/ubicomp24.pdf)] -->
-   <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
-  <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
+  <!-- [[paper](/assets/pdfs/ubicomp24.pdf)] -->
 
 <!-- - **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
   <br>
