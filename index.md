@@ -33,7 +33,13 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
    <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
   <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
 
-
+- **Understanding Graphical Perception in Data Visualization through Vision-Language Models**
+  <br>
+  **Jenna Kang**, Grace Guo, Raj Sanjay Shah, Sashank Varma
+  <br>
+  NeurIPS Behavioral ML Workshop **NeurIPS 2024**.
+  <br>
+  <!-- [[paper](/assets/pdfs/ubicomp24.pdf)] -->
 
 - **Evaluating Visual Perception of Object Motion in Dynamic Environments**
   <br>
@@ -51,7 +57,7 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   <br>
   UbiComp/ISWC Workshop **UbiComp/ISWC 2024**.
   <br>
-  <!-- [[paper](/assets/pdfs/ubicomp24.pdf)] -->
+  [[paper](/assets/pdfs/ubicomp24.pdf)]
 
 <!-- - **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
   <br>
