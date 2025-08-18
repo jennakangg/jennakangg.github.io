@@ -3,9 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I'm a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research interests center on improving immersive experiences in 3-D and AR/VR applications, with a focus on accelerating and enhancing graphics systems using machine learning techniques. I am particularly interested in studying and exploiting human perception through cognitive, perceptual, and vision sciences to enhance the experience and draw inspiration from.
-
-I am also interested in using HCI strategies for AR/VR 3-D displays, focusing on how users navigate and react within virtual spaces, investigating unique behavioral quirks to enhance immersion and interaction in these environments.
+Hello! I am a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research aims to improve immersive experiences by studying visual perception to optimize graphics systems, specifically how perception influences behavior and task performance in computer graphics applications. I am also interested in how generative AI grounded in perception can be leveraged to create more naturalistic, responsive, and perceptually aligned experiences in immersive environments
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
 
@@ -59,6 +57,18 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   <br>
   [[paper](https://dl.acm.org/doi/pdf/10.1145/3675094.3678383)]
 
+## Posters/Presentations
+
+- **Graphical Perception: Alignment of Vision-Language Models to Human Performance**
+  <br>
+  **Jenna Kang**, Grace Guo, Raj Sanjay Shah, Hanspeter Pfister, Sashank Varma
+  <br>
+  Journal of Vision (JOV) **VSS 2025**.
+  <br>
+  [[abstract](https://jov.arvojournals.org/article.aspx?articleid=2810237)]
+   <!-- [[supp](./assets/pdfs/11152-supp.pdf)]  -->
+  <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
+
 <!-- - **Learning to Self-Train for Semi-Supervised Few-Shot Classification**
   <br>
   Xinzhe Li, Qianru Sun, **Yaoyao Liu**, Shibao Zheng, Qin Zhou, Tat-Seng Chua, Bernt Schiele
@@ -80,15 +90,18 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 - Co-organizer: [ACM MM Asia 2020](https://mmasia2020.org/).
 - Conference Reviewers: [NeurIPS 2020](https://neurips.cc/Conferences/2020), and [CVPR 2020](http://cvpr2020.thecvf.com/).
 - Journal Reviewers: [T-PAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34), and [IJCV](https://www.springer.com/journal/11263). -->
-## Research
+<!-- ## Research
 - **New York University, Advisor: Qi Sun**
 - **Georgia Institute of Technology, Advisor: Thad Starner** 
   - Prototyped medical applications of head-worn displays, projecting camera output for surgical zoom with a variety of sensors
   - Quantitatively and qualitatively analyze benefits for the speaker to see their captions along with the deaf and hard of hearing user with captioning on glasses
 - **Emory University School of Medicine, Advisor: Anthony Law**
-  - Developed/trained machine learning models for vocal fold segmentation, computer vision for vocal fold paralysis detection
+  - Developed/trained machine learning models for vocal fold segmentation, computer vision for vocal fold paralysis detection -->
 
 ## Work Experience
+- **Dolby Laboratories, PhD Research Intern** (May 2025 - Aug 2025)
+  <br> Assessing and modeling color perception in scotopic/mesopic regions
+  <br> *Mentors: Timo Kunkel, Jake Zuena*
 - **Amazon Robotics, Software Engineer Intern** (May 2024 - Aug 2024)
   <br> Applied Machine Learning
 - **Amazon Robotics, Software Engineer Intern** (May 2023 - Aug 2023)
