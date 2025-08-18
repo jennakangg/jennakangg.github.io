@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-Hello! I am a first-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research aims to improve immersive experiences by studying visual perception to optimize graphics systems, specifically how perception influences behavior and task performance in computer graphics applications. I am also interested in how generative AI grounded in perception can be leveraged to create more naturalistic, responsive, and perceptually aligned experiences in immersive environments
+Hello! I am a second-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research aims to improve immersive experiences by studying visual perception to optimize graphics systems, specifically how perception influences behavior and task performance in computer graphics applications. I am also interested in how generative AI grounded in perception can be leveraged to create more naturalistic, responsive, and perceptually aligned experiences in immersive environments
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
 
