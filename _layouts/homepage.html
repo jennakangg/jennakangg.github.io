@@ -32,19 +32,26 @@
         {% endif %}
 
         <h1>{{ site.title }}</h1> 
-        
+        {% if site.email %}
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a> 
+        <br>
+        {% if site.cv %}
+        <a href="{{ site.cv }}" target="_blank" class="btn">
+          <i class="fas fa-file-alt"></i> CV
+        </a>
+        <br>
+        {% endif %}
+        <br>
         {% if site.position %}
         {{ site.position }}
         <br>
         {% endif %}
         {{ site.affiliation }}
-        {% if site.email %}
-        <br>
-        {{ site.email }}
+
         <br>
         <a class="image logo"><img src="{{site.NYU_img}}" alt="avatar" onContextMenu="return false" /></a>
-        <br>
-        <br>
+
+        <br><br>
         {{ site.undergrad_affiliation }}
         <br>
         <a class="image logo"><img src="{{site.GT_img}}" alt="avatar" onContextMenu="return false" /></a>
