@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-Hello! I am a second-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research aims to improve immersive experiences by studying visual perception to optimize graphics systems, specifically how perception influences behavior and task performance in computer graphics applications. I am also interested in how generative AI grounded in perception can be leveraged to create more naturalistic, responsive, and perceptually aligned experiences in immersive environments
+Hello! I am a second-year Computer Science Ph.D. student at New York University (NYU), advised by Dr. Qi Sun. My research aims to improve immersive experiences by studying visual perception to optimize graphics systems, specifically how perception influences behavior and task performance in computer graphics applications. I am also interested in how generative AI grounded in perception can be leveraged to create more naturalistic, responsive, and perceptually aligned experiences in immersive environments.
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
 
@@ -20,7 +20,14 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to [CVPR 2019](http://cvpr2019.thecvf.com/). -->
 
 ## Publications
-
+- **Performance Analysis of Catch-Up Eye Movements in Visual Tracking**
+  <br>
+  **Jenna Kang**, Budmonde Duinkharjav, Niall L. Williams, Qi Sun
+  <br>
+  SIGGRAPH ASIA **SIGGRAPH ASIA 2025**.
+  <br>
+  [[paper](/assets/pdfs/pursuit_accuracy_manuscript.pdf)]
+  
 - **Towards Improving Real-Time Head-Worn Display Caption Mediated Conversations with Speaker Feedback for Hearing Conversation Partners**
   <br>
   **Jenna Kang**, Emily Layton, David Martin, Thad Starner
