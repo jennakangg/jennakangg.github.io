@@ -20,6 +20,14 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to [CVPR 2019](http://cvpr2019.thecvf.com/). -->
 
 ## Publications
+- **GeneVA: A Dataset of Human Annotations for Generative Text to Video Artifacts**
+  <br>
+  **Jenna Kang**, Maria Beatriz Silva, Patsorn Sangkloy, Kenneth Chen, Niall L. Williams, Qi Sun
+  <br>
+  WACV **WACV 2026**.
+  <br>
+  [[paper](https://arxiv.org/pdf/2509.08818)]
+
 - **Performance Analysis of Catch-Up Eye Movements in Visual Tracking**
   <br>
   **Jenna Kang**, Budmonde Duinkharjav, Niall L. Williams, Qi Sun
