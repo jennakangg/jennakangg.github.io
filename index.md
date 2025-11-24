@@ -28,6 +28,14 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   <br>
   [[paper](https://arxiv.org/pdf/2509.08818)]
 
+- **Perceptually Guided 3DGS Streaming and Rendering for Mixed Reality**
+  <br>
+  Yunxiang Zhang, Sai Harsha Mupparaju, Kenneth Chen, **Jenna Kang**, Xinyu Zhang, Maito Omori, Kazuyuki Arimatsu, Qi Sun
+  <br>
+  WACV **WACV 2026**.
+  <br>
+  [To appear]
+
 - **Performance Analysis of Catch-Up Eye Movements in Visual Tracking**
   <br>
   **Jenna Kang**, Budmonde Duinkharjav, Niall L. Williams, Qi Sun
