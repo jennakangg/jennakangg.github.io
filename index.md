@@ -83,6 +83,13 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   [[paper](https://dl.acm.org/doi/pdf/10.1145/3675094.3678383)]
 
 ## Posters/Presentations
+- **Limits of Visual Saliency Models for AI-Generated Videos**
+  <br>
+  **Jenna Kang**, Niall L Williams, Maria Beatriz Silva, Kenneth Chen, Patsorn Sangkloy, Qi Sun
+  <br>
+  Journal of Vision (JOV) **VSS 2026**.
+  <br>
+  [to appear]
 
 - **Graphical Perception: Alignment of Vision-Language Models to Human Performance**
   <br>
