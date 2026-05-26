@@ -8,6 +8,13 @@ Hello! I am a second year PhD student at New York University, advised by Prof. Q
 Broadly, my work studies visibility in graphics across multiple perceptual levels, including detectability, artifact salience, and gaze behavior. My goal is to leverage insights from visual perception to inform graphics system design and to better understand how perception influences visual fidelity, human behavior, and task performance.
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
+<!-- 
+## Projects
+- **From Human Vision to Machine Vision 2026**
+  <br>
+  SIGGRAPH 2026 workshop subsite.
+  <br>
+  [[visit subsite](/subsites/humanmachinevision2026/website/)] -->
 
 <!-- ## Research Interests
 
@@ -22,6 +29,22 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to [CVPR 2019](http://cvpr2019.thecvf.com/). -->
 
 ## Publications
+- **Infinite Gaze Generation for Videos with Autoregressive Diffusion**
+  <br>
+  **Jenna Kang**, Colin Groth, Tong Wu, Finley Torrens, Patsorn Sangkloy, Gordon Wetzstein, Qi Sun
+  <br>
+  In Submission
+  <br>
+  [[paper](https://arxiv.org/abs/2603.24938)]
+
+- **Dichoptic Foveation**
+  <br>
+  Henry Kam, Colin Groth, **Jenna Kang**, Pratham Saraf, Qi Sun, Kenneth Chen
+  <br>
+  SIGGRAPH **SIGGRAPH 2026**.
+  <br>
+  [To appear]
+
 - **GeneVA: A Dataset of Human Annotations for Generative Text to Video Artifacts**
   <br>
   **Jenna Kang**, Maria Beatriz Silva, Patsorn Sangkloy, Kenneth Chen, Niall L. Williams, Qi Sun
