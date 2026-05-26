@@ -124,7 +124,7 @@ const site = {
     },
     {
       name: "Dr. Niall L. Williams",
-      role: "University of Zaragoza / Barnard College",
+      role: "University of Zaragoza",
       email: "niallw.phd@gmail.com",
       body:
         "Studies computational methods for immersive displays and uses computer graphics to probe the capabilities and limitations of human vision.",
