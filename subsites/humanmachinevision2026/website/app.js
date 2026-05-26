@@ -239,7 +239,7 @@ app.innerHTML = `
                       <button
                         class="speaker-trigger"
                         type="button"
-                        aria-expanded="${index === 0 ? "true" : "false"}"
+                        aria-expanded="true"
                         aria-controls="${speaker.id}"
                       >
                         <span class="speaker-portrait">
@@ -258,7 +258,6 @@ app.innerHTML = `
                       <div
                         class="speaker-bio"
                         id="${speaker.id}"
-                        ${index === 0 ? "" : "hidden"}
                       >
                         <p>${speaker.bio}</p>
                       </div>
@@ -379,26 +378,20 @@ speakerTriggers.forEach((trigger) => {
     const bio = card?.querySelector(".speaker-bio");
     const isExpanded = trigger.getAttribute("aria-expanded") === "true";
 
-    speakerTriggers.forEach((otherTrigger) => {
-      const otherCard = otherTrigger.closest("[data-speaker-card]");
-      const otherBio = otherCard?.querySelector(".speaker-bio");
-
-      otherTrigger.setAttribute("aria-expanded", "false");
-      otherCard?.classList.remove("is-open");
-      if (otherBio) {
-        otherBio.hidden = true;
-      }
-    });
-
-    if (!card || !bio || isExpanded) {
+    if (!card || !bio) {
       return;
     }
 
-    trigger.setAttribute("aria-expanded", "true");
-    card.classList.add("is-open");
-    bio.hidden = false;
+    trigger.setAttribute("aria-expanded", isExpanded ? "false" : "true");
+    card.classList.toggle("is-open", !isExpanded);
+    bio.hidden = isExpanded;
   });
 });
 
-const initialSpeaker = document.querySelector('.speaker-trigger[aria-expanded="true"]');
-initialSpeaker?.closest("[data-speaker-card]")?.classList.add("is-open");
+speakerTriggers.forEach((trigger) => {
+  if (trigger.getAttribute("aria-expanded") !== "true") {
+    return;
+  }
+
+  trigger.closest("[data-speaker-card]")?.classList.add("is-open");
+});
