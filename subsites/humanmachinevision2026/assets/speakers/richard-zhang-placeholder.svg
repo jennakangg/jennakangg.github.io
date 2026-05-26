@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 920" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder portrait for Dr. Richard Zhang</title>
+  <desc id="desc">Abstract portrait placeholder with initials RZ and replaceable speaker label.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff9f1"/>
+      <stop offset="52%" stop-color="#ffe0c2"/>
+      <stop offset="100%" stop-color="#d8e9f6"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#efab5a"/>
+      <stop offset="100%" stop-color="#3d74a4"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="920" fill="url(#bg)"/>
+  <circle cx="555" cy="760" r="180" fill="#8bc6e8" fill-opacity="0.3"/>
+  <circle cx="165" cy="155" r="130" fill="#ffc88b" fill-opacity="0.38"/>
+  <rect x="88" y="90" width="544" height="740" rx="272" fill="#fffaf5" stroke="url(#ring)" stroke-width="10"/>
+  <circle cx="360" cy="312" r="109" fill="#ddbea4"/>
+  <path d="M206 650c31-136 88-206 154-206 70 0 127 70 154 206" fill="#6d685e"/>
+  <path d="M240 282c15-88 59-142 120-142 79 0 123 61 126 152-26-36-65-58-126-58-52 0-90 17-120 48z" fill="#4b4a48"/>
+  <circle cx="360" cy="312" r="109" fill="#ddbea4"/>
+  <text x="360" y="790" text-anchor="middle" font-family="Avenir Next, Arial, sans-serif" font-size="32" letter-spacing="6" fill="#54626c">REPLACE WITH PHOTO</text>
+  <text x="360" y="852" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-size="68" fill="#264f72">RZ</text>
+</svg>

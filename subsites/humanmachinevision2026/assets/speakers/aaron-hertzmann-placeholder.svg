@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 920" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder portrait for Dr. Aaron Hertzmann</title>
+  <desc id="desc">Abstract portrait placeholder with initials AH and replaceable speaker label.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8ef"/>
+      <stop offset="50%" stop-color="#e7d9f0"/>
+      <stop offset="100%" stop-color="#d8ecf3"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c28259"/>
+      <stop offset="100%" stop-color="#5479b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="920" fill="url(#bg)"/>
+  <circle cx="545" cy="140" r="135" fill="#dcb9ec" fill-opacity="0.35"/>
+  <circle cx="160" cy="780" r="185" fill="#98c4e3" fill-opacity="0.32"/>
+  <rect x="88" y="90" width="544" height="740" rx="272" fill="#fffbf7" stroke="url(#ring)" stroke-width="10"/>
+  <circle cx="360" cy="316" r="111" fill="#d9bea8"/>
+  <path d="M200 650c35-137 94-210 160-210 72 0 129 73 160 210" fill="#52667e"/>
+  <path d="M235 280c8-82 58-132 125-132 72 0 121 52 126 138-30-29-66-43-129-43-49 0-86 12-122 37z" fill="#5d6472"/>
+  <circle cx="360" cy="316" r="111" fill="#d9bea8"/>
+  <text x="360" y="790" text-anchor="middle" font-family="Avenir Next, Arial, sans-serif" font-size="32" letter-spacing="6" fill="#4f5470">REPLACE WITH PHOTO</text>
+  <text x="360" y="852" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-size="68" fill="#314567">AH</text>
+</svg>

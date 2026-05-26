@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 920" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder portrait for Prof. Rafal Mantiuk</title>
+  <desc id="desc">Abstract portrait placeholder with initials RM and replaceable speaker label.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7eb"/>
+      <stop offset="50%" stop-color="#f9e0bf"/>
+      <stop offset="100%" stop-color="#d8edf3"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2aa4c"/>
+      <stop offset="100%" stop-color="#0d7c66"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="920" fill="url(#bg)"/>
+  <circle cx="560" cy="170" r="140" fill="#f5c77b" fill-opacity="0.5"/>
+  <circle cx="190" cy="760" r="180" fill="#7fc8bb" fill-opacity="0.35"/>
+  <rect x="88" y="90" width="544" height="740" rx="272" fill="#fff9f0" stroke="url(#ring)" stroke-width="10"/>
+  <circle cx="360" cy="320" r="112" fill="#d7c0a8"/>
+  <path d="M206 650c26-143 88-214 154-214s128 71 154 214" fill="#a66f55"/>
+  <circle cx="360" cy="278" r="122" fill="#6d5b57"/>
+  <circle cx="360" cy="320" r="112" fill="#d7c0a8"/>
+  <text x="360" y="790" text-anchor="middle" font-family="Avenir Next, Arial, sans-serif" font-size="32" letter-spacing="6" fill="#2f5d67">REPLACE WITH PHOTO</text>
+  <text x="360" y="852" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-size="68" fill="#173a42">RM</text>
+</svg>

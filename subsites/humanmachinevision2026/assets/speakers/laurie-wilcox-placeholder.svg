@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 920" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder portrait for Prof. Laurie Wilcox</title>
+  <desc id="desc">Abstract portrait placeholder with initials LW and replaceable speaker label.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffaf1"/>
+      <stop offset="52%" stop-color="#f6dec9"/>
+      <stop offset="100%" stop-color="#e2f1ea"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#de8d62"/>
+      <stop offset="100%" stop-color="#3d8b78"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="920" fill="url(#bg)"/>
+  <circle cx="120" cy="170" r="125" fill="#f6bda0" fill-opacity="0.4"/>
+  <circle cx="585" cy="760" r="165" fill="#91d2c2" fill-opacity="0.32"/>
+  <rect x="88" y="90" width="544" height="740" rx="272" fill="#fff9f4" stroke="url(#ring)" stroke-width="10"/>
+  <circle cx="360" cy="318" r="112" fill="#debea8"/>
+  <path d="M198 650c34-145 89-214 162-214s128 69 162 214" fill="#7f5847"/>
+  <path d="M230 285c13-81 61-132 130-132 83 0 128 58 133 140-28-33-66-53-133-53-51 0-92 15-130 45z" fill="#7c5b50"/>
+  <circle cx="360" cy="318" r="112" fill="#debea8"/>
+  <text x="360" y="790" text-anchor="middle" font-family="Avenir Next, Arial, sans-serif" font-size="32" letter-spacing="6" fill="#5d6468">REPLACE WITH PHOTO</text>
+  <text x="360" y="852" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-size="68" fill="#284a46">LW</text>
+</svg>

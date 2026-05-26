@@ -1,0 +1,519 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #fdf4ea;
+  }
+
+  @page {
+    size: letter portrait;
+    margin: 0;
+  }
+
+  .flyer {
+    background:
+      radial-gradient(circle at top right, rgba(255, 197, 87, 0.28), transparent 28%),
+      radial-gradient(circle at bottom left, rgba(88, 170, 255, 0.2), transparent 30%),
+      linear-gradient(180deg, #fffaf0 0%, #fdf4ea 100%);
+    color: #243247;
+    font-family: Avenir Next, Avenir, Helvetica Neue, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 48px 40px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bg-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(90px);
+    pointer-events: none;
+  }
+  .orb1 { width: 300px; height: 300px; background: rgba(255, 198, 92, 0.45); top: -60px; right: -60px; }
+  .orb2 { width: 250px; height: 250px; background: rgba(91, 205, 173, 0.28); bottom: 40px; left: -60px; }
+  .orb3 { width: 180px; height: 180px; background: rgba(112, 155, 255, 0.22); top: 50%; left: 30%; }
+
+  .content { position: relative; z-index: 1; }
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+  .conference-badge {
+    background: rgba(255,255,255,0.7);
+    border: 0.5px solid rgba(74, 108, 150, 0.16);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    color: #5b6f8d;
+    text-transform: uppercase;
+  }
+  .workshop-type {
+    font-size: 12px;
+    color: #169a7c;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #2f7ef7;
+    margin-bottom: 12px;
+  }
+
+  .title {
+    font-family: Iowan Old Style, Palatino Linotype, Book Antiqua, Georgia, serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #18314f;
+    margin-bottom: 6px;
+  }
+  .title span { color: #169a7c; }
+
+  .title-sub {
+    font-family: Iowan Old Style, Palatino Linotype, Book Antiqua, Georgia, serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #5a708d;
+    margin-bottom: 20px;
+  }
+
+  .divider {
+    width: 48px;
+    height: 2px;
+    background: linear-gradient(90deg, #2f7ef7, #18b389);
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  .tagline {
+    font-size: 15px;
+    color: #586b84;
+    line-height: 1.6;
+    max-width: 520px;
+    margin-bottom: 36px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .meta-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6f83a0;
+  }
+  .meta-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: #294261;
+  }
+
+  .section-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #6f83a0;
+    margin-bottom: 14px;
+  }
+
+  .topics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  .topic-pill {
+    background: rgba(47,126,247,0.08);
+    border: 0.5px solid rgba(47,126,247,0.18);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #31527c;
+    line-height: 1.4;
+  }
+  .topic-pill:nth-child(odd) {
+    border-color: rgba(24,179,137,0.18);
+    background: rgba(24,179,137,0.08);
+    color: #196c5a;
+  }
+
+  .speakers-section { margin-bottom: 28px; }
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .speaker-card {
+    background: rgba(255,255,255,0.62);
+    border: 0.5px solid rgba(74, 108, 150, 0.12);
+    border-radius: 14px;
+    padding: 9px;
+  }
+  .speaker-photo {
+    aspect-ratio: 4 / 5;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at top, rgba(255,255,255,0.88), transparent 52%),
+      linear-gradient(145deg, rgba(47,126,247,0.12), rgba(24,179,137,0.12));
+    padding: 4px;
+  }
+  .speaker-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 9px;
+  }
+  .speaker-copy {
+    min-width: 0;
+    margin-top: 8px;
+  }
+  .speaker-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #203a59;
+    margin-bottom: 2px;
+    line-height: 1.25;
+  }
+  .speaker-aff {
+    font-size: 11px;
+    color: #617794;
+    line-height: 1.3;
+  }
+  .speaker-highlight {
+    font-size: 10px;
+    color: #2f7ef7;
+    margin-top: 4px;
+    line-height: 1.35;
+  }
+
+  .schedule-row {
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+    background: rgba(255,255,255,0.64);
+    border: 0.5px solid rgba(74, 108, 150, 0.12);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 36px;
+  }
+  .sched-item {
+    flex: 1;
+    padding: 12px 14px;
+    border-right: 0.5px solid rgba(74, 108, 150, 0.12);
+    text-align: center;
+  }
+  .sched-item:last-child { border-right: none; }
+  .sched-time { font-size: 11px; color: #6f83a0; margin-bottom: 4px; }
+  .sched-act { font-size: 12px; color: #294261; font-weight: 500; }
+
+  .bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 24px;
+    border-top: 0.5px solid rgba(74, 108, 150, 0.12);
+  }
+  .footer-info {
+    flex: 1;
+    min-width: 0;
+  }
+  .organizers-block {
+    margin-bottom: 16px;
+  }
+  .organizer-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 18px;
+  }
+  .organizer-item {
+    font-size: 11px;
+    line-height: 1.35;
+    color: #4f6482;
+  }
+  .organizer-item strong {
+    color: #203a59;
+    font-weight: 600;
+  }
+  .contact-block { }
+  .contact-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: #6f83a0; margin-bottom: 4px; }
+  .contact-value { font-size: 13px; color: #2f7ef7; }
+
+  .org-logos {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .org-badge {
+    background: rgba(255,255,255,0.7);
+    border: 0.5px solid rgba(74, 108, 150, 0.12);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #5f7694;
+  }
+
+  .accent-dot {
+    display: inline-block;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #18b389;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 720px) {
+    .speakers-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .bottom-bar {
+      flex-direction: column;
+    }
+    .organizer-list {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media print {
+    html, body {
+      width: 8.5in;
+      min-height: 11in;
+      overflow: hidden;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .flyer {
+      width: 8.5in;
+      min-height: auto;
+      max-width: none;
+      margin: 0;
+      border-radius: 0;
+      padding: 0.42in 0.45in 0.36in;
+      zoom: 0.86;
+    }
+
+    .top-bar,
+    .tagline,
+    .meta-row,
+    .topics-grid,
+    .speakers-section,
+    .schedule-row,
+    .bottom-bar,
+    .speaker-card,
+    .topic-pill,
+    .organizer-item {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .top-bar { margin-bottom: 0.3in; }
+    .eyebrow { margin-bottom: 0.08in; }
+    .title,
+    .title-sub {
+      font-size: 31px;
+      line-height: 1.08;
+    }
+    .title-sub { margin-bottom: 0.14in; }
+    .divider { margin-bottom: 0.16in; }
+    .tagline {
+      font-size: 13px;
+      line-height: 1.45;
+      margin-bottom: 0.28in;
+      max-width: none;
+    }
+    .meta-row {
+      gap: 0.18in;
+      margin-bottom: 0.28in;
+    }
+    .topics-grid,
+    .speakers-section,
+    .schedule-row {
+      margin-bottom: 0.22in;
+    }
+    .topic-pill,
+    .speaker-card,
+    .sched-item {
+      padding: 8px 10px;
+    }
+    .speaker-photo {
+      padding: 3px;
+    }
+    .speaker-copy {
+      margin-top: 6px;
+    }
+    .section-label { margin-bottom: 10px; }
+    .bottom-bar {
+      gap: 0.18in;
+      padding-top: 0.18in;
+    }
+    .organizer-list { gap: 5px 14px; }
+    .organizer-item,
+    .org-badge {
+      font-size: 10px;
+    }
+    .contact-value {
+      font-size: 12px;
+    }
+  }
+</style>
+
+<div class="flyer">
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+  <div class="bg-orb orb3"></div>
+
+  <div class="content">
+
+    <div class="top-bar">
+      <div class="conference-badge">SIGGRAPH 2026 &mdash; Technical Workshop</div>
+      <div class="workshop-type">Half-day &bull; 1st edition</div>
+    </div>
+
+    <div class="eyebrow">HVMV Workshop</div>
+    <div class="title">From Human Vision</div>
+    <div class="title-sub">to Machine Vision</div>
+    <div class="divider"></div>
+
+    <p class="tagline">
+      Bridging the gap between biological and computational visual systems &mdash; fostering collaboration between human vision and machine vision researchers across visual computing.
+    </p>
+
+    <div class="meta-row">
+      <div class="meta-item">
+        <span class="meta-label">When</span>
+        <span class="meta-value">Monday &ndash; Thursday session</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Duration</span>
+        <span class="meta-value">3.25 hours (9:00am &ndash; 12:15pm)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Format</span>
+        <span class="meta-value">Keynotes &bull; Q&amp;A &bull; Panel discussion</span>
+      </div>
+    </div>
+
+    <div class="section-label">Topics</div>
+    <div class="topics-grid">
+      <div class="topic-pill">Neural networks as models of human vision</div>
+      <div class="topic-pill">Perceptually-optimized rendering &amp; displays</div>
+      <div class="topic-pill">Interpretability of machine vision systems</div>
+      <div class="topic-pill">Computer graphics for studying human vision</div>
+      <div class="topic-pill" style="grid-column: span 2;">Opportunities for interdisciplinary collaboration</div>
+    </div>
+
+    <div class="speakers-section">
+      <div class="section-label">Invited Speakers</div>
+      <div class="speakers-grid">
+        <div class="speaker-card">
+          <div class="speaker-photo">
+            <img src="./assets/speakers/rafal.jpg" alt="Portrait of Prof. Rafał Mantiuk" style="object-position: center 28%;" />
+          </div>
+          <div class="speaker-copy">
+            <div class="speaker-name">Prof. Rafał Mantiuk</div>
+            <div class="speaker-aff">University of Cambridge</div>
+            <div class="speaker-highlight">Psychophysics &bull; computational displays &bull; image quality</div>
+          </div>
+        </div>
+        <div class="speaker-card">
+          <div class="speaker-photo">
+            <img src="./assets/speakers/laurie.webp" alt="Portrait of Prof. Laurie M. Wilcox" style="object-position: center 30%; transform: scale(1.3);" />
+          </div>
+          <div class="speaker-copy">
+            <div class="speaker-name">Prof. Laurie M. Wilcox</div>
+            <div class="speaker-aff">York University</div>
+            <div class="speaker-highlight">3D vision &bull; depth perception &bull; VR/AR</div>
+          </div>
+        </div>
+        <div class="speaker-card">
+          <div class="speaker-photo">
+            <img src="./assets/speakers/aaron.jpg" alt="Portrait of Dr. Aaron Hertzmann" style="object-position: center 18%;" />
+          </div>
+          <div class="speaker-copy">
+            <div class="speaker-name">Dr. Aaron Hertzmann</div>
+            <div class="speaker-aff">Adobe Research &bull; Univ. of Washington</div>
+            <div class="speaker-highlight">ML &bull; computational photography &bull; art perception</div>
+          </div>
+        </div>
+        <div class="speaker-card">
+          <div class="speaker-photo">
+            <img src="./assets/speakers/richard.jpg" alt="Portrait of Dr. Richard Zhang" style="object-position: center 24%;" />
+          </div>
+          <div class="speaker-copy">
+            <div class="speaker-name">Dr. Richard Zhang</div>
+            <div class="speaker-aff">Adobe Research</div>
+            <div class="speaker-highlight">LPIPS &bull; perceptual deep learning &bull; generative models</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Schedule at a glance</div>
+    <div class="schedule-row">
+      <div class="sched-item">
+        <div class="sched-time">9:00</div>
+        <div class="sched-act">Opening</div>
+      </div>
+      <div class="sched-item">
+        <div class="sched-time">9:05 &ndash; 10:20</div>
+        <div class="sched-act">Talks 1 &amp; 2 + Q&amp;A</div>
+      </div>
+      <div class="sched-item">
+        <div class="sched-time">10:20 &ndash; 11:40</div>
+        <div class="sched-act">Talks 3 &amp; 4 + Q&amp;A</div>
+      </div>
+      <div class="sched-item">
+        <div class="sched-time">11:45 &ndash; 12:15</div>
+        <div class="sched-act">Panel discussion</div>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <div class="footer-info">
+        <div class="organizers-block">
+          <div class="contact-label">Organizers</div>
+          <div class="organizer-list">
+            <div class="organizer-item"><strong>Kenneth Chen</strong> &bull; kennychen@nyu.edu</div>
+            <div class="organizer-item"><strong>Dr. Niall L. Williams</strong> &bull; niallw.phd@gmail.com</div>
+            <div class="organizer-item"><strong>Dr. Colin Groth</strong> &bull; c.groth@nyu.edu</div>
+            <div class="organizer-item"><strong>Jenna Kang</strong> &bull; jennakang@nyu.edu</div>
+            <div class="organizer-item"><strong>Dr. Alexandre Chapiro</strong> &bull; alex@chapiro.net</div>
+            <div class="organizer-item"><strong>Prof. Qi Sun</strong> &bull; qisun@nyu.edu</div>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-label">Primary contact</div>
+          <div class="contact-value">Kenneth Chen &bull; kennychen@nyu.edu</div>
+        </div>
+      </div>
+      <div class="org-logos">
+        <div class="org-badge">NYU</div>
+        <div class="org-badge">Univ. of Zaragoza</div>
+        <div class="org-badge">Meta Reality Labs</div>
+      </div>
+    </div>
+
+  </div>
+</div>
