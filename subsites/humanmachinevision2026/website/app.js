@@ -6,6 +6,7 @@ const site = {
   event: "SIGGRAPH 2026 Technical Workshop",
   eventLine: "Thursday, July 23 • 9:00 AM - 12:15 PM",
   venue: "Los Angeles Convention Center",
+  room: "Room 406 AB",
   posterNote:
     "Bridging biological and computational visual systems through shared questions, methods, and visual computing applications.",
   overviewTitle: "Why this workshop?",
@@ -120,7 +121,7 @@ const site = {
       role: "PhD Student, New York University",
       email: "kennychen@nyu.edu",
       body:
-        'Researches visual perception for graphics and computational displays. Contact: <a href="mailto:kennychen@nyu.edu">kennychen@nyu.edu</a>.',
+        'Researches visual perception for graphics and computational displays.',
     },
     {
       name: "Dr. Niall L. Williams",
@@ -201,6 +202,7 @@ app.innerHTML = `
             <div>
               <h1>${site.title}</h1>
               <p class="poster-eventline"><em>${site.event}</em> @ ${site.eventLine}</p>
+              <p class="poster-room">${site.venue} • ${site.room}</p>
             </div>
             <div class="poster-badge" aria-label="Conference details">
               <span class="poster-badge-mark">SIGGRAPH 2026</span>
@@ -252,7 +254,6 @@ app.innerHTML = `
                         <span class="speaker-summary">
                           <span class="speaker-name">${speaker.name}</span>
                           <span class="speaker-role">${speaker.role}</span>
-                          <span class="speaker-hint">Click to view bio</span>
                         </span>
                       </button>
                       <div

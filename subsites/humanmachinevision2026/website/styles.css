@@ -127,6 +127,13 @@ h2,
   line-height: 1.1;
 }
 
+.poster-room {
+  margin-top: 0.4rem;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .poster-badge {
   display: grid;
   justify-items: end;
@@ -214,7 +221,6 @@ h2,
 .contact-panel p,
 .agenda-row span,
 .speaker-role,
-.speaker-hint,
 .speaker-bio p,
 .nav a,
 .contact-list {
@@ -346,22 +352,13 @@ h2,
   line-height: 0.96;
 }
 
-.speaker-role,
-.speaker-hint {
+.speaker-role {
   display: block;
 }
 
 .speaker-role {
   margin-top: 0.15rem;
   font-size: 0.86rem;
-}
-
-.speaker-hint {
-  margin-top: 0.35rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
 }
 
 .speaker-bio {
