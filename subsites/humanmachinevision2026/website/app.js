@@ -99,7 +99,7 @@ const site = {
       photoPosition: "center 24%",
       photoScale: 1.2,
       photoOffsetY: "0%",
-      cardClass: "speaker-card-white",
+      cardClass: "speaker-card-white speaker-card-aaron",
       bio:
         "Works at the intersection of machine learning, computational photography, and the psychology of art, with a long track record of bridging computation and human visual experience.",
     },
