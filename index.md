@@ -28,7 +28,7 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   <br>
   **Jenna Kang**, Colin Groth, Tong Wu, Finley Torrens, Patsorn Sangkloy, Gordon Wetzstein, Qi Sun
   <br>
-  In Submission
+  ECCV 2026
   <br>
   [[paper](https://arxiv.org/abs/2603.24938)]
 
