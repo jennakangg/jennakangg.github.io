@@ -3,12 +3,9 @@ layout: homepage
 ---
 
 ## About Me
-Hello! I am a second year PhD student at New York University, advised by Prof. Qi Sun. My research combines visual perception, psychophysics, and computer graphics. I am particularly interested in applying vision science to computer graphics, with a focus on perceptually grounded evaluation of visual quality in generative AI and video synthesis.
-
-Broadly, my work studies visibility in graphics across multiple perceptual levels, including detectability, artifact salience, and gaze behavior. My goal is to leverage insights from visual perception to inform graphics system design and to better understand how perception influences visual fidelity, human behavior, and task performance.
+Hello! I am a third year PhD student at New York University, advised by Prof. Qi Sun. Currently, my research focuses on world models for games, controllable video generation, and improving the fidelity and perceptual quality of AI-generated content.  I am also interested in applying vision science to computer graphics and gen AI, to create perceptually aware and constrained generative systems.
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
-
 
 
 <!-- ## Research Interests
@@ -149,6 +146,8 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   - Developed/trained machine learning models for vocal fold segmentation, computer vision for vocal fold paralysis detection -->
 
 ## Work Experience
+- **Google, Student Researcher** (Sept 2026 - Dec 2026)
+  <br> TBD
 - **Dolby Laboratories, PhD Research Intern** (May 2025 - Aug 2025)
   <br> Assessing and modeling color perception in scotopic/mesopic regions
   <br> *Mentors: Timo Kunkel, Jake Zuena*
