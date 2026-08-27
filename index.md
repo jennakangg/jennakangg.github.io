@@ -28,7 +28,8 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   ECCV 2026
   <br>
   [[paper](https://arxiv.org/abs/2603.24938)]
-
+  [[code](https://github.com/NYU-ICL/infinite-gaze-gen)]
+  
 - **Dichoptic Foveation**
   <br>
   Henry Kam, Colin Groth, **Jenna Kang**, Pratham Saraf, Qi Sun, Kenneth Chen
@@ -44,6 +45,7 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   WACV **WACV 2026**.
   <br>
   [[paper](https://arxiv.org/pdf/2509.08818)]
+  [[dataset info](https://www.immersivecomputinglab.org/publication/geneva/)]
 
 - **Perceptually Guided 3DGS Streaming and Rendering for Mixed Reality**
   <br>
@@ -51,7 +53,7 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
   <br>
   WACV **WACV 2026**.
   <br>
-  [To appear]
+  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11491970)]
 
 - **Performance Analysis of Catch-Up Eye Movements in Visual Tracking**
   <br>
