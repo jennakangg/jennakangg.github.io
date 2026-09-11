@@ -3,6 +3,9 @@ layout: homepage
 ---
 
 ## About Me
+
+**Actively looking for 2027 Internships!**
+
 Hello! I am a third year PhD student at New York University, advised by Prof. Qi Sun. Currently, my research focuses on world models for games, controllable video generation, and improving the fidelity and perceptual quality of AI-generated content.  I am also interested in applying vision science to computer graphics and gen AI, to create perceptually aware and constrained generative systems.
 
 I achieved my B.S. in Computer Science at the Georgia Institute of Technology in 2024, where I was advised by Dr. Thad Starner.
