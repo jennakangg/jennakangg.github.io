@@ -24,6 +24,28 @@ I achieved my B.S. in Computer Science at the Georgia Institute of Technology in
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to [CVPR 2019](http://cvpr2019.thecvf.com/). -->
 
 ## Publications
+- **Causal Diffusion for Extreme Super-Resolution in Interactive Games**
+  <br>
+  **Jenna Kang\***, Christina Zhang\*, Colin Groth, Akshay Jindal, Stavros Diolatzis, Qi Sun
+  <br>
+  In Submission
+  <br>
+  [[paper](https://arxiv.org/abs/2611.26963)]
+
+- **SWAM: State-Aware World Models for Multi-Agent 3D Environments**
+  <br>
+  **Jenna Kang**, Bingxuan Li, Colin Groth, Anatolii Evdokimov, S. Q. Zhang, Qi Sun
+  <br>
+  In Submission
+  <br>
+  [[paper](https://arxiv.org/abs/2611.30042)]
+
+- **ArtiFix: Localizing and Repairing Artifacts in AI-Generated Videos**
+  <br>
+  H. Kam, **Jenna Kang**, N. L. Williams, S. Q. Zhang, Qi Sun
+  <br>
+  In Submission
+
 - **Infinite Gaze Generation for Videos with Autoregressive Diffusion**
   <br>
   **Jenna Kang**, Colin Groth, Tong Wu, Finley Torrens, Patsorn Sangkloy, Gordon Wetzstein, Qi Sun
